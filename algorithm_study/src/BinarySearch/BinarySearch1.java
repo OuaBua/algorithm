@@ -15,9 +15,20 @@ package BinarySearch;
 * 다음 줄에는 강토의 기타 강의의 길이가 강의 순서대로 분 단위로(자연수)로 주어진다.
 * 각 강의의 길이는 10,000분을 넘지 않는다.
 *
-* 출력 : 첫째 줄에 가능한 블루레이 크기중 최소를 출력한다.3
+* 출력 : 첫째 줄에 가능한 블루레이 크기중 최소를 출력한다.
 * */
 
-public class BinarySearch1 {
+import java.util.Scanner;
 
+
+public class BinarySearch1 {
+    public static void main(String[] arg) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("강의 갯수 크기 입력 : ");
+        int lecture = scanner.nextInt();
+
+
+    }
 }
