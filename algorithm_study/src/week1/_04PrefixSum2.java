@@ -19,6 +19,12 @@ public class _04PrefixSum2 {
                 A[i][j] = Integer.parseInt(stringTokenizer.nextToken());
             }
         }
+        int D[][] = new int[N+1][N-1];
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= N; j++) {
+                System.out.println("as");
+            }
+        }
 
     }
 }
